@@ -1,3 +1,7 @@
+This is a forked project of https://github.com/ddollar/heroku-buildpack-multi.git buildpack.
+
+** heroku-buildpack-multi ** is deprecated.
+
 # Deprecated
 
 This project is deprecated and is no longer being maintained.
