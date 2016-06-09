@@ -9,7 +9,7 @@ set -o pipefail
  
 cd $BUILD_DIR
  
-gcc app.c -o app
+gcc WrapBinary.c -o WrapBinary
  
 echo "Creating start script"
 cat > "$BUILD_DIR/start.sh" <<EOF
@@ -17,7 +17,7 @@ cat > "$BUILD_DIR/start.sh" <<EOF
 # Start C Application Server
 echo "Starting C Application Server"
 echo Port is $PORT
-/home/vcap/app/app
+/home/vcap/app/WrapBinary
 EOF
  
 chmod 755 "$BUILD_DIR/start.sh"
