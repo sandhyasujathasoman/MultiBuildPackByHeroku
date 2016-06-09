@@ -16,7 +16,7 @@ cat > "$BUILD_DIR/start.sh" <<EOF
 #!/bin/bash
 # Start C Application Server
 echo "Starting C Application Server"
-#echo Port is $PORT
+echo Port is $PORT
 /home/vcap/app/app
 EOF
  
