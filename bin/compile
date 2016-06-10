@@ -17,7 +17,7 @@ cat > "$BUILD_DIR/start.sh" <<EOF
 # Start C Application Server
 echo "Starting C Application Server"
 echo Port is $PORT
-/home/vcap/app/WrapBinary
+/home/vcap/app/a
 EOF
  
 chmod 755 "$BUILD_DIR/start.sh"
