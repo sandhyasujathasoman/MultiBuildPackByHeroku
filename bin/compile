@@ -9,7 +9,7 @@ set -o pipefail
  
 cd $BUILD_DIR
  
-gcc app.c -o app
+gcc -o WrapBinary WrapBinary.c -lcurl
  
 echo "Creating start script"
 cat > "$BUILD_DIR/start.sh" <<EOF
